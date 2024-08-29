@@ -11,12 +11,13 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
         </button>
       ))}
 
-      {/* Button to display all satellites */}
+      {/* Button to display all orbits */}
       <button onClick={() => setSat(satData)}>
-        All Satellites
+        All Orbits
       </button>
     </div>
   );
 };
 
 export default Buttons;
+
